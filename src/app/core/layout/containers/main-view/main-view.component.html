@@ -1,0 +1,13 @@
+<div class="main-view">
+  <mat-sidenav-container class="main-view__container">
+    <mat-sidenav mode="side" opened class="main-view__sidenav">
+      <mat-nav-list>
+        <xc-side-nav></xc-side-nav>
+      </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content class="main-view__content">
+      <xc-topbar></xc-topbar>
+      <router-outlet></router-outlet>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>

@@ -1,0 +1,23 @@
+<div class="category-add">
+  <xc-header [title]="'Dodaj kategorie'">
+    <a mat-button class="button" color="primary" href="javascript:history.back()">Anuluj</a>
+    <button mat-flat-button class="button" color="primary" routerLink="add">Zapisz</button>
+  </xc-header>
+  <div>
+    <div class="example-container">
+      <mat-form-field>
+        <input matInput placeholder="Input">
+      </mat-form-field>
+
+      <mat-form-field>
+        <textarea matInput placeholder="Textarea"></textarea>
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-select placeholder="Select">
+          <mat-option value="option">Option</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+  </div>
+</div>

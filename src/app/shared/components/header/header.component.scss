@@ -1,0 +1,16 @@
+.header {
+  background-color: transparent;
+
+  &__title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  &__row {
+    padding: 32px;
+  }
+
+  &__fill-space {
+    flex: 1 1 auto;
+  }
+}

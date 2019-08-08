@@ -1,0 +1,15 @@
+:host {
+
+  a {
+    color: #111;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+    
+    .mat-list-item-content {
+      text-align: center;
+    }
+  }
+}
